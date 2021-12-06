@@ -8,10 +8,10 @@ class Connection {
 
       const config = {
         connectionLimit: 100,
-        host: process.env.DB_HOST,
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_DEFAULT_SCHEMA
+        host: "us-cdbr-east-04.cleardb.com",
+        user: "ba8176c40a660d",
+        password: "072c5874",
+        database: "heroku_9f7809ef0ff6ff2"
       }
 
       // const config = process.env.CLEARDB_DATABASE_URL
