@@ -15,7 +15,7 @@ const port = process.env.PORT || 42003;
 // });
 
 const cors = require("cors");
-app.use(cors());
+app.use(cors({ methods: ["GET", "POST", "DELETE", "UPDATE", "PUT"] }));
 app.options("*", cors());
 
 app.use(bodyParser.json());
